@@ -1,0 +1,125 @@
+/*Utilidades*/
+.oculta {font-size: 0px; margin: 0px; padding: 0px;}
+img.logo{width:173px;margin-right: 10px;margin-top: 10px;margin-bottom: 10px;}
+p {margin-bottom: 0px;}
+.centralizar {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-color: #EAEAEA;
+}
+img.loading{width: 200px;margin-right: 19.5%;margin-left: 19.5%;margin-top: 10px;margin-bottom: 10px;}
+
+img.loading2{width: 100px;margin-right: 35%;margin-left: 35%;/* margin-top: 10px; *//* margin-bottom: 10px; */}
+
+.loader {
+  border: 16px solid #C1C1C1;
+  border-radius: 50%;
+  border-top: 16px solid #115080;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/*Fadein do body*/
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 2s ease-in-out;
+-moz-animation: fadeIn 2s ease-in-out;
+-o-animation: fadeIn 2s ease-in-out;
+animation: fadeIn 2s ease-in-out;
+}
+
+.fadeImg {
+opacity:0;
+-webkit-animation: fadeIn 2s ease-in-out;
+-moz-animation: fadeIn 2s ease-in-out;
+-o-animation: fadeIn 2s ease-in-out;
+animation: fadeIn 2s ease-in-out;
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-o-animation-fill-mode:forwards;
+animation-fill-mode:forwards;}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/*Backgrouds Parallax*/
+
+/*Backgrounds Colors*/
+
+/*Fonte Colors*/
+
+/*Resets*/
+
+/*Fonts*/
+
+/*Btns*/
+
+/*Padding*/
+.padding-10{padding: 10px 0px;}
+.padding-20{padding: 20px 0px;}
+.padding-30{padding: 30px 0px;}
+.padding-40{padding: 40px 0px;}
+.padding-50{padding: 50px 0px;}
+.padding-60{padding: 60px 0px;}
+.padding-70{padding: 70px 0px;}
+.padding-80{padding: 80px 0px;}
+
+/*Header*/
+.header{background-color: #EAEAEA;width: 100%;border-bottom: 1px solid #C1C1C1; font-family: Consolas,monaco, monospace;}
+.logo{float: left;margin-left: 15px;}
+.botao{background-color: #195584;}
+.margin{margin: 10px 36px 0px 0px;}
+.menuresp {}
+ul.menu{list-style: none;margin-right: 57px;margin-top: 3px;/* text-align: center; */}
+ul.menu li{display: inline;margin-left: 45px;}
+ul.menu li a{font-size:20px;text-decoration: none;color:#05477a;}
+ul.menu li a:hover{font-size:20px;text-decoration: none;color: #c1c1c1;background-color:#eaeaea;}
+
+
+/*Home*/
+.home{background-color: #fff; font-family: Consolas, monaco, monospace;}
+
+/*Sobre*/
+.sobre{background-color: #fff; font-family: Consolas, monaco, monospace;}
+
+/*Servicos*/
+.servicos{background-color: #fff; font-family: Consolas, monaco, monospace;}
+
+/*Portfolio*/
+.portfolio{background-color: #fff; font-family: Consolas, monaco, monospace;}
+
+/*Clientes*/
+.cliente{background-color: #fff; font-family: Consolas, monaco, monospace;}
+
+/*Contato*/
+.rodape{background-color: #EAEAEA; font-family: Consolas, monaco, monospace; border-top: 1px solid #C1C1C1;}
+.text-rodape{font-size: 10px;color: #014478;font-weight: bold;}
+.text-rodape a{color: white;}
+.mapa{margin: 20px 55px 45px 60px; padding: 0px;}
